@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif; /* Määrab fondi */
+    background-color: #f4f6f8; /* Taustavärv */
+    margin: 20px; /* Väline vahe */
+}
+
+h1 {
+    color: #1f38ca; /* H1 pealkirja värv */
+    font-family: cursive; /* Font-family */
+    font-weight: bold; /* Bold */
+}
+
+.container {
+    background: white; /* Tausta värv */
+    padding: 20px; /* Sisevahe */
+    margin-bottom: 20px; /* Vahe all */
+    border-radius: 10px; /* Ümarad nurgad */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Vari */
+}
+
+input, button {
+    padding: 8px; /* Sisevahe */
+    margin: 5px 0; /* Väline vahe */
+}
+
+button {
+    cursor: pointer; /* Kursor muutub */
+    background-color: #001aff; /*  Nupu taustavärv */
+    color: white; /* Teksti värv */
+    border: none; /* Ääris puudub */
+    border-radius: 5px; /* Ümarad nurgad */
+}
+
+button:hover {
+    background-color: #00e1ff; /* Hover värv */
+}
+
+li {
+    margin: 5px 0; /* Vahe Loendi elementide vahel */
+}
+
+.error {
+    color: red; /* Veateate värv */
+}
+
+.center {
+    text-align: center;
+}
