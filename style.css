@@ -8,6 +8,7 @@ h1 {
     color: #1f38ca; /* H1 pealkirja värv */
     font-family: cursive; /* Font-family */
     font-weight: bold; /* Bold */
+
 }
 
 .container {
@@ -44,5 +45,5 @@ li {
 }
 
 .center {
-    text-align: center;
+    text-align: center; /* Tekst keskele */
 }

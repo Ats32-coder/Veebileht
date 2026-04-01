@@ -38,7 +38,7 @@ function validateForm() { // Funktsioon vormi kontrolliks
     const errorMsg = document.getElementById("errorMsg"); // Võtab veateate elemendi
 
     if (name === "" || email === "") { // Kontrollib kas väljad on täidetud
-        errorMsg.textContent = "Palun täida kõik väljad!"; // Kuvab vea
+        errorMsg.textContent = "Palun täida kõik väljad!"; // Kuvab veateate
         return false; // Takistab vormi saatmist
     }
 
